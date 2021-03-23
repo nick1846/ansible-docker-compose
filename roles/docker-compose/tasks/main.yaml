@@ -9,5 +9,5 @@
   docker_compose:
       project_src: ../Docker_Compose
       files:
-            - docker-compose.yml"
+            - docker-compose.yml
       state: present
