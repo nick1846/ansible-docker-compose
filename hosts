@@ -1,4 +1,3 @@
-[docker-compose] 
+[docker-compose]
 
-#localhost ansible_connection=local 
 3.14.195.208    ansible_python_interpreter="/usr/bin/env python3"
