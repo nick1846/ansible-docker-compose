@@ -1,13 +1,13 @@
 ---
 
-#- name: Clone a repo with separate git directory
-#  git:
-#      repo: https://github.com/nick1846/jenkins-docker-compose.git
-#      dest: /home/ec2-user/webhost
+- name: Clone a repo with separate git directory
+  git:
+      repo: https://github.com/nick1846/jenkins-docker-compose.git
+      dest: /home/ec2-user/webhost
 
 - name: Make sure compose service is up
   docker_compose:
-      project_src: /Ansible_Compose/Docker_Compose
+      project_src: /home/ec2-user/webhost
       files:
             - docker-compose.yml
       state: present
