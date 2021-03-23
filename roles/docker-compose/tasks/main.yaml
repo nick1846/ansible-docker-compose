@@ -7,7 +7,7 @@
 
 - name: Make sure compose service is up
   docker_compose:
-      project_src: ../Docker_Compose
+      project_src: /Ansible_Compose/Docker_Compose
       files:
             - docker-compose.yml
       state: present
