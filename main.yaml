@@ -1,5 +1,5 @@
 ---
-- hosts: _web_server 
+- hosts: all
   become: True  
   roles:
     - docker-compose 
