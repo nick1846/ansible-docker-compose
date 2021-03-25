@@ -1,6 +1,5 @@
 ---
 - hosts: _web_server 
-  become: True
-  ansible_python_interpreter: "/usr/bin/env python3"
+  become: True  
   roles:
     - docker-compose 
