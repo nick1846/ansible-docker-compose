@@ -8,6 +8,7 @@
 - name: Make sure compose service is up
   docker_compose:
       project_src: /home/ec2-user/webhost
+      build: yes
       files:
             - docker-compose.yml
       state: present
