@@ -10,4 +10,4 @@
       project_src: /home/ec2-user/webhost
       files:
             - docker-compose.yml
-      state: latest
+      state: present
