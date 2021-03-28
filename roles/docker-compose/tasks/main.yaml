@@ -2,7 +2,7 @@
 
 - name: Clone a repo with separate git directory
   git:
-      repo: https://github.com/nick1846/jenkins-docker-compose.git
+      repo: https://github.com/nick1846/docker.git
       dest: /home/ec2-user/webhost
 
 - name: Make sure compose service is up
